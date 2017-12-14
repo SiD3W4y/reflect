@@ -7,7 +7,7 @@
 		reflect_init();
 
 #define REFLECT_ZONE_END }
-#define REFLECT_ADD_FN(type,name,desc,addr) reflect_push_fn(type,name,desc,addr) 
+#define REFLECT_ADD_FN(type,name,desc,addr) reflect_push_fn(type,name,desc,addr); 
 
 typedef struct Function {
 	char *name;
